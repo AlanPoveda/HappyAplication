@@ -6,7 +6,7 @@ O projeto Happy é uma forma de poder encontrar locais de adoção que aceitem v
 
 # h1 Happy
 
-![](./Happy-login.png)
+![](public/images/Happy-login.PNG)
 
 
 *Tecnologias usadas* 💻
