@@ -18,9 +18,9 @@ O projeto Happy é uma forma de poder encontrar locais de adoção que aceitem v
 - Sql
 - Figma
 
-*Projeto feito por AlanPoveda*
+🐱‍💻 *Projeto feito por AlanPoveda*
 
 *Redes Sociais*
 
-[Linkding](https://www.linkedin.com/in/alan-poveda-a8a4b7b5/)
+[Linkedin](https://www.linkedin.com/in/alan-poveda-a8a4b7b5/)
 [Twitter](https://twitter.com/AlanPoveda)
