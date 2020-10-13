@@ -5,12 +5,13 @@ Vamos pra cima, seguindo o passo a passo do NLW 3
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     height: 100vh;
     color: white;
-    
+    background: #EBF2F5 ;
 }
 
 :root{
