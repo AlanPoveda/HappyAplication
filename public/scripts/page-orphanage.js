@@ -24,7 +24,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',)
 
 const icon = L.icon({
     //Peagando a imagem do ícone
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     // Tamanho do ícone 
     iconSize: [58, 68],
     //Aonde ele vai estar
