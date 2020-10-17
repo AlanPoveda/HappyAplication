@@ -1,0 +1,25 @@
+{
+  "name": "happyaplication",
+  "version": "1.0.0",
+  "description": "*Projeto:*",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanPoveda/HappyAplication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanPoveda/HappyAplication/issues"
+  },
+  "homepage": "https://github.com/AlanPoveda/HappyAplication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
