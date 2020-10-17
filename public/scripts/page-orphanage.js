@@ -10,15 +10,20 @@ const options = {
 
 }
 
+// Pegando valores para centralizar no mapa pegos do html
+
+const lat = document.querySelector('span[data-lat]').dataset.lat
+const lng = document.querySelector('span[data-lng]').dataset.lng
 
 
 //Parte do mapa aqui 
-const map = L.map('mapid', options).setView([-23.5762796,-46.6665123], 16);
+const map = L.map('mapid', options).setView([ lat, lng], 15);
 
 // Criando e adicionando tilelayer
-// Mapa grauíto disponível
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',)
- .addTo(map)
+// Mapa gratuíto disponível
+L
+.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',)
+.addTo(map)
 
 // criando icone 
 
@@ -37,8 +42,11 @@ const icon = L.icon({
 
 
 // Fazer a sua localização do mapa 
-L.marker([-23.5762796,-46.6665123], { icon })
- .addTo(map)
+
+
+L
+.marker([lat, lng], { icon })
+.addTo(map)
 
  // Image galery
 

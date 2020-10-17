@@ -129,6 +129,17 @@ function toggleSelect(event){
 
 }
 
+//Ver se a validação está correta para continuar com aplicação 
+
+function validate(event){
+    const needsLatAndLng = true 
+
+    //Validar se lat e long estão preenchidos
+    if ( needsLatAndLng == true)
+    event.preventDefault()
+    alert("Selecione um ponto no mapa")
+}
+
 
 
 

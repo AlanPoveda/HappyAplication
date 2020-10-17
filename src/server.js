@@ -17,6 +17,10 @@ const server = express()
 
 //Utilizando os arquivos estáticos
 server
+
+    // Utilizar body da requisição
+    .use(express.urlencoded({ extended: true }))
+
     .use(express.static('public'))
     //Agora ir para o index e tirar o public da requisição
 
@@ -33,7 +37,7 @@ server
     .get('/orphanage', pages.orphanage) 
     .get('/orphanages', pages.orphanages) 
     .get('/create-orphanage', pages.createOrphanage) // Colocou em Mayuscula para subtituir a '-' 
-
+    .post('/save-orphanage', pages.saveOrphanage)
 
 //Ligar servidor
 

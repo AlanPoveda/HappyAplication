@@ -50,7 +50,8 @@
       <main class="animate-appear with-sidebar">
         <!--Formulários-->
 
-        <form action="">
+        <!--Método post para poder enviar as informações de forma segura-->
+        <form action="save-orphanage" method="post" onsubmit="validade(event)">
           <fieldset>
             <legend>Dados</legend>
 
@@ -87,7 +88,13 @@
 
                 <div class="new-upload">
 
-                  <input name="images" placeholder="Cole o link da foto aqui" required />
+                  <!--Depois colocar imagem para colocar imagens do teu pc-->
+                  <input 
+                  name="images" 
+                  placeholder="Cole o link da foto aqui" 
+                  required 
+                  type="url"
+                  />
 
                 <!--O event faz com que carregue as informações do que estamos deletando -->
                 <span onclick="deleteField(event)">
