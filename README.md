@@ -11,15 +11,16 @@ O projeto Happy é uma forma de poder encontrar locais de adoção que aceitem v
 
 *Tecnologias usadas* 💻
 
+- handlebars (Template engine)
+
 - Html 5
 - Css3
 - JavaScript
 - NodeJs
+- Express
 - Sql
 - Figma
 
-    Template Engine
-- handlebars
 
 🐱‍💻 *Projeto feito por AlanPoveda*
 
