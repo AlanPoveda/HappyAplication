@@ -2,7 +2,10 @@
 
 *Projeto:*
 
-O projeto Happy é uma forma de poder encontrar locais de adoção que aceitem visitas, assim você podendo saber qual é local mais proximo para você fazer visita para uma dessas crianças e alegrar o dia delas
+O projeto Happy é uma forma de poder encontrar locais de adoção que aceitem visitas, assim você podendo saber qual é local mais proximo para você fazer visita para uma dessas crianças e alegrar o dia delas. 
+
+
+Por enquanto esta é a versão para pc, mas esta sendo produzido a versão para mobile. 📲
 
 # Happy
 
