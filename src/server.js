@@ -1,5 +1,6 @@
 //Precisa oir bno Pakage.json o "start":"nodemon rsc/server.js" após intalação do nodemon
 //Lembrar de fazer essa etapa 
+// O site esta na porta http://127.0.0.1:5500/ da minha máquina
 
 
 //Importar dependencia ou pacotes
